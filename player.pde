@@ -4,5 +4,6 @@ public class player {
   int turn, health;
   
   public player( String who ) {
+    name = who;
   }
 }
